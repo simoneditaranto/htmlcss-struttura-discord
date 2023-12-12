@@ -4,3 +4,61 @@
     box-sizing: border-box;
 }
 /* reset */
+
+
+.container > *{
+    /* test */
+    border: 1px solid red;
+}
+
+
+/* sezione navbar */
+
+nav{
+    padding: 20px; 
+
+    background-color: #ADD8E6;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1190px;
+
+    background-color: #DAA520;
+}
+
+.nav-container :first-child, .nav-container :last-child{
+    padding: 5px 0;
+
+    width: 240px;
+
+    border: 2px dashed black;
+}
+
+.nav-container .navigation{
+    flex-grow: 1;
+
+    padding: 5px;
+
+    border: 2px dashed black;
+
+    text-align: center;
+}
+
+.nav-container .login{
+
+    text-align: right;
+}
+
+/* fine sezione navbar */
+
+
+
+
+
+
