@@ -96,21 +96,33 @@ header{
     border: 2px dashed black;
 }
 
-.first-section .row-container .img{
+.section .row-container .img{
     flex-grow: 1;
 
     background-color: #1E90FF;
 }
 
-.first-section .row-container .description{
+.section .row-container .description{
     width: 480px;
 
     background-color: #FFC0CB;
 }
 
-
-
 /* fine prima sezione */
+
+/* seconda sezione */
+
+.section.second{
+
+    background-color: #D3D3D3;
+}
+
+.section.second .row-container{
+    flex-direction: row-reverse;
+}
+
+/* fine seconda sezione */
+
 
 
 
