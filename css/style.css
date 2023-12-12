@@ -5,15 +5,7 @@
 }
 /* reset */
 
-
-.container > *{
-    /* test */
-    border: 1px solid red;
-}
-
-
 /* sezione navbar */
-
 nav{
     padding: 20px; 
 
@@ -27,7 +19,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
 
-    width: 1190px;
+    max-width: 1190px;
 
     background-color: #DAA520;
 }
@@ -54,11 +46,9 @@ nav{
 
     text-align: right;
 }
-
 /* fine sezione navbar */
 
 /* sezione header */
-
 header{
     background-color: #00008B;
 
@@ -69,14 +59,13 @@ header{
     margin-left: auto;
     margin-right: auto;
 
-    width: 900px;
+    max-width: 900px;
     height: 400px;
 
     border: 2px dashed black;
 
     background-color: #EE82EE;
 }
-
 /* fine sezione header */
 
 /* prima sezione */
@@ -90,7 +79,7 @@ header{
     margin-left: auto;
     margin-right: auto;
 
-    width: 1190px;
+    max-width: 1190px;
     height: 500px;
 }
 
@@ -134,7 +123,7 @@ header{
     margin-left: auto;
     margin-right: auto;
 
-    width: 1190px;
+    max-width: 1190px;
     height: 900px;
 
     border: 2px dashed black;
@@ -142,6 +131,70 @@ header{
     background-color: #228B22;
 }
 /* fine quarta sezione */
+
+/* sezione footer */
+footer{
+    background-color: #23272A;
+}
+
+footer > *{
+    margin: auto;
+}
+
+.top{
+    display: flex;
+
+    margin-top: 5px;
+    margin-bottom: 40px;
+
+    max-width: 1190px;
+    height: 575px;
+}
+
+.top .big-column{
+    flex-grow: 1;
+
+    border: 2px dashed black;
+
+    background-color: #F08080;
+}
+
+.top .small-column{
+    width: 210px;
+
+    border: 2px dashed white;
+
+    background-color: #20B2AA;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+
+    max-width: 1190px;
+    height: 80px;
+
+    background-color: #7FFFD4;
+}
+
+.bot .button{
+    padding: 5px;
+
+    border: 2px dashed black;
+
+    background-color: #FFB6C1;
+}
+
+
+/* fine sezione footer */
+
 
 
 
